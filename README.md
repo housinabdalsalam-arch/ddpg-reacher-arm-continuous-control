@@ -2,6 +2,13 @@
 
 This repository contains a **classic DDPG (Actor–Critic)** solution for Udacity DRLND Project 2 (Continuous Control / Reacher).
 
+## Demo
+
+<p align="center">
+  <img src="media/reacher.gif" alt="Reacher Demo" width="700">
+</p>
+
+
 ## Environment
 - **State space**: 33 continuous values (positions, rotations, velocities, angular velocities).
 - **Action space**: 4 continuous actions (torques), each in **[-1, 1]**.
@@ -50,6 +57,11 @@ Outputs:
 - `checkpoint_critic.pth`
 - `scores.npy`
 - `scores.png`
+
+## Results
+
+![DDPG Training Scores](scores.png)
+
 
 ## Evaluation (10 episodes)
 ```bash
