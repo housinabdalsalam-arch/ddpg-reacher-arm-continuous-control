@@ -1,4 +1,4 @@
-# double-jointed arm Continuous Control (Reacher) — DDPG 
+# Double-jointed arm Continuous Control (Reacher) using DDPG 
 
 This repository contains a **classic DDPG (Actor–Critic)** solution for Udacity DRLND Project 2 (Continuous Control / Reacher).
 
