@@ -64,7 +64,6 @@ def main():
             agent.save("checkpoint_actor.pth", "checkpoint_critic.pth")
             break
 
-    np.save("scores.npy", np.array(scores, dtype=np.float32))
 
     plt.figure()
     plt.plot(np.arange(1, len(scores) + 1), scores, label="Score")
